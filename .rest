@@ -1,0 +1,43 @@
+### Get all contacts
+GET http://localhost:3000/contacts
+Content-Type: application/json
+
+###
+
+### Get a single contact by ID (replace with a valid MongoDB ObjectId)
+GET http://localhost:3000/contacts/679b5fef93fb7ce776fba323
+Content-Type: application/json
+
+###
+
+### Create a new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "Green",
+  "birthday": "1990-05-10"
+}
+
+###
+
+### Update a contact by ID (replace with a valid ObjectId)
+PUT http://localhost:3000/contacts/6650eaa9136b31cf49317f1a
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "1985-08-22"
+}
+
+###
+
+### Delete a contact by ID (replace with a valid ObjectId)
+DELETE http://localhost:3000/contacts/6650eaa9136b31cf49317f1a
+Content-Type: application/json
