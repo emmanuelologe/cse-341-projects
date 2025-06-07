@@ -1,0 +1,31 @@
+{
+  "name": "cse-342-projects",
+  "version": "1.0.0",
+  "description": "This is my second project and it is a cars API",
+  "homepage": "https://github.com/emmanuelologe/cse-341-projects#readme",
+  "bugs": {
+    "url": "https://github.com/emmanuelologe/cse-341-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelologe/cse-341-projects.git"
+  },
+  "license": "ISC",
+  "author": "Emmanuel ologe",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "autogen": "^0.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
